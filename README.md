@@ -21,6 +21,10 @@ This project demonstrates how to simulate, visualize, and remove periodic noise 
 - Numpy : Best Library for working with arrays in python
 - MatPlotLib : Library for showing the charts in python
 
+## 💻 Run the Notebook on Google Colab
+
+You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/Filtering-in-Frequency-Domain/blob/main/Code/Filtering_in_Frequency_Domain.ipynb)
+
 ## 🪪 License
 
 This project is licensed under the MIT License.
