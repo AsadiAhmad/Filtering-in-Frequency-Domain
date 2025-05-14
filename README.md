@@ -194,6 +194,20 @@ print(f"PSNR (Original vs Reconstructed): {psnr_reconstructed:.2f} dB")
 PSNR (Original vs Noisy): 8.12 dB
 PSNR (Original vs Reconstructed): 19.47 dB
 
+## PSNR Calculation
+
+The Peak Signal-to-Noise Ratio (PSNR) measures the quality of reconstruction. It is defined as:
+
+PSNR = 20 · log₁₀(MAXᵢ/√MSE)
+
+where:
+- MAXᵢ is the maximum possible pixel value (255 for 8-bit images)
+- MSE is the mean squared error between original and processed images:
+
+MSE = (1/MN) · Σᵢ₌₀ᴹ⁻¹ Σ�₌₀ᴺ⁻¹ [I(i,j) - K(i,j)]²
+
+Higher PSNR values indicate better quality reconstruction.
+
 ## 🪪 License
 
 This project is licensed under the MIT License.
