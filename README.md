@@ -59,7 +59,7 @@ original_image = cv2.imread("original_image.png", cv2.IMREAD_GRAYSCALE)
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/original_image.png" width="800px"/>
+  <img src="/Pictures/original_image.png" width="400px"/>
 </div>
 
 ### Step 4: Add Periodic Noise
@@ -82,7 +82,7 @@ noisy_image = original_image + noise
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/noisy_image.png" width="800px"/>
+  <img src="/Pictures/noisy_image.png" width="400px"/>
 </div>
 
 ### Step 5: Convert Image into the Frequency Domain
